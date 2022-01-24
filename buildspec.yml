@@ -13,6 +13,8 @@ phases:
       - echo Build completed
 artifacts:
   files:
-    - hello-0.0.1-SNAPSHOT.jar 
+    - target/*.jar 
+    - server_stop.sh
+    - server_start.sh
     
   discard-paths: yes
