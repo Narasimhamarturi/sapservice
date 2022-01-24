@@ -9,7 +9,7 @@ phases:
       - mvn install
   post_build:
     commands:
-      - aws s3 cp target/*.war s3://codedeploy-artifacts-jeni/
+      - aws s3 cp target/*.jar s3://codedeploy-artifacts-jeni/
       - echo Build completed
 artifacts:
   files:
