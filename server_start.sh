@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /home/ec2-user/root.jar
+java -jar /home/ec2-user/hello-0.0.1-SNAPSHOT.jar
