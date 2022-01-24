@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /hello-0.0.1-SNAPSHOT.jar
-    destination: /home/ec2-user/root.jar
+    destination: /home/ec2-user/
 
 permissions:
   - object: /
